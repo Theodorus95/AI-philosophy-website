@@ -19,7 +19,7 @@ a {
 
   font-size: 18px;
   color: #e5e7eb;
-  padding: 0px 100px;
+  padding: 0px 100px 20px 100px;
 }
 
 .top-header {
@@ -70,10 +70,44 @@ a {
 
 .main-content {
   display: flex;
+  flex-direction: column;
+  padding: 30px 0px;
+  /* background-color: #3882f6; */
 }
 
 .image-heading {
   font-size: 36px;
   font-weight: bolder;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.ai-pictures {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.lower-header img,
+.main-content img {
+  border-radius: 10px;
+  border: 2px solid;
+}
+
+.ai-pictures {
+}
+
+.ai-brain,
+.ai-chip,
+.ai-head,
+.ai-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 130px;
+}
+
+.ai-captions {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
